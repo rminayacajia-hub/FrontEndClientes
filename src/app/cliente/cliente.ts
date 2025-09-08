@@ -21,7 +21,7 @@ export class Cliente implements OnInit {
   lista_clientes$!: ICliente[]; 
   cargando: boolean = false;
   error: string | null = null;
-  Eliminar: boolean = false;
+ 
 
   constructor(private clienteServicio: ClienteService) { }
 
